@@ -1,0 +1,18 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+<h3>HomeWork модуля D1:</h3>
+<hr>
+<i>{{ flatpage.content }}</i>
+<hr>
+<strong>{{ flatpage.content }}</strong>
+<hr>
+<h4>Собирательный образ:</h4>
+<h5>На этой странице два раза выводится контент, изменяются шрифты и эта страница доступна только зарегистрированным пользователям</h5>
+{% endblock content %}
